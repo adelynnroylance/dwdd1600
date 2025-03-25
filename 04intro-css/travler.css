@@ -58,7 +58,6 @@ main h2 {
 main h3 {
     color: #6D4E55;
     padding: .5rem 10px;
-    background-color: #efefef;
 }
 main p {
     color: #333;
@@ -66,12 +65,10 @@ main p {
 
 main ul {
     padding: .5rem 30px;
-    background-color: #efefef;
     list-style-type: circle;
 }
 main p {
     padding: .5rem 10px ;
-    background-color: #efefef;
 }
 main ol {
     padding: .5rem 30px ;
