@@ -58,6 +58,8 @@ main h2 {
 main h3 {
     color: #6D4E55;
     padding: .5rem 10px;
+    margin: .2rem;
+    margin-bottom: .2rem;
 }
 main p {
     color: #333;
@@ -73,6 +75,9 @@ main p {
 main ol {
     padding: .5rem 30px ;
     background-color: #efefef ;
+}
+main dl {
+    margin: .2rem;
 }
 main address {
     font-style: normal;
