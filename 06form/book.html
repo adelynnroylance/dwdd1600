@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Adelynn Roylance">
+    <meta name="description" content="See services offered">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="travler.css">
+    <title>Glamour Grove Suites: Services</title>
+</head>
+
+<body>
+    <!-- start the page head -->
+    <header>
+        <span>Glamour Grove Suites</span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Services</a></li>
+            <li class="active"><a href="book.html">Booking</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li ><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <!-- start the main content -->
+    <main>
+        <h1>Booking</h1>
+        
+        <form method="get" class="cform" action="thanks.html">
+
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label>First Name <input type="text" name="fname" required></label>
+                <label>Last Name <input type="text" name="lname" required></label>
+                <label>Cell Number <input type="tel" name="phone" required placeholder="801-111-2222"></label>
+                <label>Email <input type="email" name="email"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>New Client</legend>
+                <label><input type="radio" name="client" value="yes"> Yes</label>
+                <label><input type="radio" name="client" value="no"> No</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Hair</legend>
+                <label><input type="checkbox" name="hair" value="yes"> Color </label>
+                <label><input type="checkbox" name="hair" value="yes"> Cut </label>
+                <label><input type="checkbox" name="hair" value="yes"> Hair Extensions </label>
+                <label><input type="checkbox" name="hair" value="yes"> Special Occasions </label>
+                <label><input type="checkbox" name="hair" value="yes"> Perms and Relaxers </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Piercings</legend>
+                <label><input type="checkbox" name="ear" value="yes"> Ear Piercings </label>
+                <label><input type="checkbox" name="ear" value="yes"> Nose Piercings </label>
+                <label><input type="checkbox" name="ear" value="yes"> Body Piercings </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Facials</legend>
+                <label>
+                    <select name="face">
+                        <option value="none">Please Select</option>
+                        <option value="classic">Classic Facial</option>
+                        <option value="hydrating">Hydrating Facial</option>
+                        <option value="acne">Acne Facial</option>
+                        <option value="aging">Anti-Aging Facial</option>
+                        <option value="bright">Brightening Facial</option>
+                        <option value="relax">Relaxation Facial</option>
+                        <option value="chemical">Chemical Peels</option>
+                        <option value="led">LED Light Therapy</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Nails</legend>
+                <label>
+                    <select name="nails">
+                        <option value="none">Please Select</option>
+                        <option value="man">Manicures</option>
+                        <option value="ped">Pedicures</option>
+                        <option value="acrylic">Aacrylic Nails</option>
+                        <option value="luminary">Luminary Nails</option>
+                        <option value="repair">Nail Repairs</option>
+                        <option value="art">Nail Art</option>
+                    </select>
+                </label>
+            </fieldset>
+
+            <label>Additional Information
+                <textarea name="comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Form">
+        </form>
+
+
+
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy; 2025 &bull; Adelynn Roylance &bull; DGM Project</p>
+    </footer>
+</body>
+
+</html>
