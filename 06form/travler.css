@@ -101,7 +101,17 @@ main a {
 main p em {
     color: #B56467;
 }
-
+main dl {
+    margin: .5rem;
+}
+main dt {
+    color: #573133;
+    margin-bottom: .2rem;
+    font-size: 1.1rem;
+}
+main dd {
+    font-size: 1rem;
+}
 figure.wrapped {
     width: 50%;
     margin: 0 0 0 2%;
